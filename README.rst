@@ -7,3 +7,6 @@ mailing lists. Proposal should still be exposed and/or discussed on the mailing
 lists (or other media) for transparency.
 
 Please read ``doc/source/index.rst`` for further details.
+
+You can render this sphinx website by running ``tox -e docs``,
+which will build the html pages in ``doc/build/``.
