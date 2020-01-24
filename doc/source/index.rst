@@ -87,8 +87,9 @@ Proposed ideas
 ==============
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :titlesonly:
    :glob:
 
+   ideas/*/index
    ideas/*
