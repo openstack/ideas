@@ -52,13 +52,13 @@ to propose an idea should be done in minutes.
 1. Copy the ``ideas/EXAMPLE`` into ``ideas/<my_awesome_idea_name>.rst``
 2. Edit the content of ``ideas/<my_awesome_idea_name>.rst``. The only thing we
    ask (to help figuring out what the idea is about), is to always have at least
-   2 paragraphs: 1 about the idea itself, 1 about why you want to do it.
+   2 paragraphs: 1 explaining the idea itself, 1 explaining why you want it.
    You can add any extra text into your idea, but we need those two.
 3. When this is created, ``git checkout -b my_awesome_idea_name &&
    git add . && git commit && git review -f``.
-   In your commit title, please ALWAYS mention a conversation on the mailing
+   In your commit message, please ALWAYS mention a conversation on the mailing
    list. In other words, make sure your idea or idea update was discussed,
-   and that your commit is representative of a part of the conversation.
+   and that your commit is representative of a conversation.
    This is necessary because it helps retracing updates with the mailing list,
    when checking the git log.
 
