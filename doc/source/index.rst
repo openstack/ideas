@@ -9,7 +9,8 @@ This website is a breeding ground for ideas in OpenStack.
 Everyone with an idea can propose it here, even if said idea has been
 discussed/proposed in the past.
 
-Keep in mind, the ideas in this repository can be very fresh or very old.
+Keep in mind, the ideas in `this repository
+<https://opendev.org/openstack/ideas>`_ can be very fresh or very old.
 The age of the idea does not matter for your contribution.
 Someone wanting to iterate over any idea (even an old one) can do so.
 It is recommended to check the history using git first, though, as
@@ -49,12 +50,13 @@ The purpose of this system is to be VERY lightweight.
 Even though the repository is curated by the technical committee, the process
 to propose an idea should be done in minutes.
 
-1. Copy the ``ideas/EXAMPLE`` into ``ideas/<my_awesome_idea_name>.rst``
-2. Edit the content of ``ideas/<my_awesome_idea_name>.rst``. The only thing we
+1. Clone this repository ``git clone https://opendev.org/openstack/ideas``
+2. Copy the ``ideas/EXAMPLE`` into ``ideas/<my_awesome_idea_name>.rst``
+3. Edit the content of ``ideas/<my_awesome_idea_name>.rst``. The only thing we
    ask (to help figuring out what the idea is about), is to always have at least
    2 paragraphs: 1 explaining the idea itself, 1 explaining why you want it.
    You can add any extra text into your idea, but we need those two.
-3. When this is created, ``git checkout -b my_awesome_idea_name &&
+4. When this is created, ``git checkout -b my_awesome_idea_name &&
    git add . && git commit && git review -f``.
    In your commit message, please ALWAYS mention a conversation on the mailing
    list. In other words, make sure your idea or idea update was discussed,
