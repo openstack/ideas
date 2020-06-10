@@ -94,4 +94,5 @@ Proposed ideas
    :glob:
 
    ideas/*/index
+.. remove this lilne once there's content..
    ideas/*
