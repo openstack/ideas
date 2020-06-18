@@ -13,7 +13,7 @@ Kubernetes. The first is to create a Service_ with type |LoadBalancer|_. This
 is the older way of doing things but is still useful for lower-level plumbing,
 and may be required for non-HTTP(S) protocols. The preferred (though nominally
 beta) way is to create an Ingress_. The Ingress API allows for more
-sophisticated control (such as adding abbr:`TLS (Transport Layer Security)`
+sophisticated control (such as adding :abbr:`TLS (Transport Layer Security)`
 termination), and can allow multiple services to share a single external load
 balancer (including across different DNS names), and hence a single IP address.
 
