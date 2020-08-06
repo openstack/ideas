@@ -101,7 +101,10 @@ doesn't actually provide the :doc:`level of security you would hope for
 <key-management>` without Barbican or an equivalent anyway.
 
 A :abbr:`CSI (Container Storage Interface)` plugin for Cinder already exists in
-cloud-provider-openstack_.
+cloud-provider-openstack_. However, while Cinder can interoperate with
+baremetal servers deployed by Ironic, the Cinder CSI plugin does not support
+this use case and relies on the integration between Cinder and Nova. Additional
+work would be required to support both paths.
 
 Ember_ is an alternative CSI plugin that makes use of lib-cinder, rather than
 all of Cinder. This allows Cinder's hardware drivers to be used directly from
