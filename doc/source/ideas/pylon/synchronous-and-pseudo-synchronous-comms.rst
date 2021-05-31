@@ -16,7 +16,7 @@ be expected to answer instantly, while instant present is expected during
 synchronous IRC meetings or video conferences.
 
 The current mechanisms for (pseudo-)synchronous communications are for
-example is OpenDev's meetpad service and our freenode IRC channels.
+example is OpenDev's meetpad service and our OFTC IRC channels.
 
 The problem
 -----------
